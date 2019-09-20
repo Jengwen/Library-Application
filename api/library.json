@@ -1,0 +1,19 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Gone With The Wind",
+            "author": "Margaret Mitchell",
+            "available": true
+        },
+        {
+            "id": 2,
+            "title": "Heidi",
+            "author": "Johanna Spyri",
+            "available": false
+        }
+    ],
+    "patrons": [
+        {"id":1, "name": "John Smith", "active": true}
+    ]
+}
