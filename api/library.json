@@ -1,19 +1,38 @@
 {
-    "books": [
-        {
-            "id": 1,
-            "title": "Gone With The Wind",
-            "author": "Margaret Mitchell",
-            "available": true
-        },
-        {
-            "id": 2,
-            "title": "Heidi",
-            "author": "Johanna Spyri",
-            "available": false
-        }
-    ],
-    "patrons": [
-        {"id":1, "name": "John Smith", "active": true}
-    ]
+  "books": [
+    {
+      "id": 1,
+      "title": "Gone With The Wind",
+      "author": "Margaret Mitchell",
+      "available": true
+    },
+    {
+      "id": 2,
+      "title": "Heidi",
+      "author": "Johanna Spyri",
+      "available": false
+    }
+  ],
+  "patrons": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "active": false
+    },
+    {
+      "id": 2,
+      "name": "Katie Bookworm",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Rob Reader",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Jane Essay",
+      "active": true
+    }
+  ]
 }
