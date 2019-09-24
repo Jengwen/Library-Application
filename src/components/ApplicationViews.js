@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import Home from './home/home'
 import BookList from './books/BookList'
 import PatronList from './patrons/PatronList'
+import BookDetail from './books/BookDetail'
 
 class ApplicationViews extends Component {
 
@@ -12,8 +13,11 @@ class ApplicationViews extends Component {
           <Route exact path="/" render={(props) => {
             return <Home />
           }} />
-          <Route path="/books" render={(props) => {
+          <Route exact path="/books" render={(props) => {
             return <BookList />
+          }} />
+<Route path="/books/:bookId(\d+)" render={(props) => {
+            return <BookDetail bookId= {parseInt(props.match.params.bookId)}/>
           }} />
           <Route path="/patrons" render={(props) => {
             return <PatronList />

@@ -4,6 +4,8 @@
       "id": 1,
       "title": "Gone With The Wind",
       "author": "Margaret Mitchell",
+      "ISBN":" 978-1451635621",
+      "coverPhoto":"https://images-na.ssl-images-amazon.com/images/I/81fWm4C8vJL.jpg",
       "available": true
     },
     {
@@ -11,13 +13,43 @@
       "title": "Heidi",
       "author": "Johanna Spyri",
       "available": false
+    },
+    {
+      "id": 3,
+      "title": "Black Beauty",
+      "author": "Anna Sewell",
+      "available": false
+    },
+    {
+      "id": 4,
+      "title": "Secret Garden",
+      "author": "Johanna Spyri",
+      "available": true
+    },
+    {
+      "id": 5,
+      "title": "Harry Potter, Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "available": false
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter, Deathly Hollows",
+      "author": "J.K. Rowling",
+      "available": false
+    },
+    {
+      "id": 7,
+      "title": "Harry Potter, Cursed Child",
+      "author": "J.K. Rowling",
+      "available": false
     }
   ],
   "patrons": [
     {
       "id": 1,
       "name": "John Smith",
-      "active": false
+      "active": true
     },
     {
       "id": 2,
@@ -33,6 +65,43 @@
       "id": 4,
       "name": "Jane Essay",
       "active": true
+    }
+  ],
+  "patronBooks": [
+    {
+      "id": 1,
+      "patronId": 1,
+      "bookId": 1,
+      "dueDate": "09/20/2019",
+      "returned": true
+    },
+    {
+      "id": 2,
+      "patronId": 3,
+      "bookId": 2,
+      "dueDate": "10/20/2019",
+      "returned": false
+    },
+    {
+      "id": 3,
+      "patronId": 2,
+      "bookId": 3,
+      "dueDate": "10/10/2019",
+      "returned": false
+    },
+    {
+      "id": 4,
+      "patronId": 4,
+      "bookId": 5,
+      "dueDate": "10/10/2019",
+      "returned": false
+    },
+    {
+      "id": 5,
+      "patronId": 2,
+      "bookId": 6,
+      "dueDate": "10/10/2019",
+      "returned": false
     }
   ]
 }

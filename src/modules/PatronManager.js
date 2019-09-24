@@ -15,5 +15,8 @@ export default {
       "Content-Type": "application/json"
     },body: JSON.stringify({active: false})
   }).then((response=> response))
+  },
+  getPatronBooks() {
+return fetch(`${remoteURL}/patrons?_embed=patronBooks`).then(result => result.json())
   }
 }

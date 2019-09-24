@@ -1,0 +1,18 @@
+/* resize book image */
+img {
+   max-width: 150px;
+   height: auto;
+}
+/* create styling for book detail card */
+.card-content{
+   display: flex;
+   flex-direction: column;
+   background-color: aliceblue;
+   margin: 3em;
+   width: 80%
+}
+.card{
+   width: 35%;
+   margin: 1em
+}
+
